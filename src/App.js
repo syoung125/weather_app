@@ -29,7 +29,7 @@ class App extends React.Component {
         </div>
       ) : (
         <div>
-        <h1>Weather in Seoul, Korea</h1>
+        <h1>Weather of Seoul, Korea</h1>
         <div className="weathers">
           {wList.map(weather => (
             <Weather 
