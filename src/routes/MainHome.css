@@ -1,0 +1,15 @@
+.main__wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+.select__wrapper {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,33 @@
+.weatherWrapper {
+    display: flex;
+}
+
+.weather {
+    display: inline-block;
+    background-color:white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 
+    0 8px 16px -8px rgba(0,0,0,.3),
+    0 -6px 16px -6px rgba(0,0,0,.025);
+    align-items: flex-start;
+}
+
+.weather__timestamp,
+.weather__clouds,
+.weather__wind,
+.weather__humidity {
+    font-weight: 300;
+}
+
+.weather__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather__label {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
